@@ -1,0 +1,65 @@
+/* Navbar styling */
+.custom-navbar {
+    background: linear-gradient(90deg, #343a40 0%, #495057 100%); /* Gradient background */
+    border-bottom: 2px solid #007bff; /* Bottom border with primary color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .custom-navbar:hover {
+    background: linear-gradient(90deg, #23272b 0%, #343a40 100%); /* Darker gradient on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  .navbar-brand {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #f8f9fa; /* Light text color */
+    text-transform: uppercase; /* Uppercase text for brand */
+    letter-spacing: 1px; /* Spacing between letters */
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navbar-brand:hover {
+    color: #007bff; /* Primary color on hover */
+    transform: scale(1.05); /* Slight scaling effect on hover */
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+    color: #f8f9fa; /* Light text color */
+    padding: 0.7rem 1.2rem; /* Adjusted padding for better spacing */
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 4px; /* Rounded corners for nav links */
+  }
+  
+  .nav-link:hover {
+    color: #ffffff; /* White text color on hover */
+    background-color: rgba(0, 123, 255, 0.2); /* Light background color on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+  }
+  
+  .navbar-toggler {
+    border: none; /* Remove default border */
+    background-color: #007bff; /* Primary color for toggler */
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-toggler:hover {
+    background-color: #0056b3; /* Darker primary color on hover */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path d="M2 12a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1zm0-4a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1zm0-4a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4z"/></svg>');
+  }
+  
+  /* Align brand to the left and nav links to the right */
+  .custom-navbar .navbar-nav {
+    margin-left: auto; /* Pushes nav links to the right */
+  }
+  
+  /* Ensure consistent spacing inside the container */
+  .custom-navbar .container {
+    padding: 0 2rem; /* Adjust padding for better spacing */
+  }
+  
