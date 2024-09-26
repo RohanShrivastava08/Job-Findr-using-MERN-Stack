@@ -1,0 +1,19 @@
+/* src/App.css */
+.home-hero {
+  background-color: #f8f9fa;
+  padding: 5rem 1rem;
+}
+
+.home-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home-hero p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.home-hero .btn {
+  font-size: 1.25rem;
+}
