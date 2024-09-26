@@ -1,0 +1,146 @@
+.job-details-page {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .job-details-content {
+    margin-bottom: 40px;
+  }
+  
+  .job-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .job-header {
+    margin-bottom: 20px;
+  }
+  
+  .job-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .job-meta {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #6c757d;
+    font-size: 1.125rem;
+  }
+  
+  .job-meta span {
+    margin-left: 5px;
+  }
+  
+  .job-description h2 {
+    color: #007bff;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+  }
+  
+  .job-description p {
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .job-description ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .job-description ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .job-description ul li svg {
+    margin-right: 10px;
+    color: #007bff;
+  }
+  
+  .apply-now-btn {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+    font-size: 1.125rem;
+  }
+  
+  .apply-now-btn:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .sidebar {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: sticky;
+    top: 20px;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .related-jobs {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .related-jobs li {
+    margin-bottom: 10px;
+  }
+  
+  .related-jobs a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1.125rem;
+    transition: color 0.3s ease;
+  }
+  
+  .related-jobs a:hover {
+    color: #0056b3;
+  }
+  
+  .popup-message {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media (max-width: 767.98px) {
+    .job-details-page {
+      padding: 20px 0;
+    }
+  
+    .job-header h1 {
+      font-size: 2rem;
+    }
+  
+    .job-meta {
+      font-size: 1rem;
+    }
+  
+    .sidebar {
+      display: none;
+    }
+  }
+  
