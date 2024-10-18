@@ -1,8 +1,8 @@
 # 💼 Job Findr - A Job Listing Portal using MERN Stack
 
-Welcome to the Job Findr project, a dynamic web application built using the MERN Stack (MongoDB, Express, React, Node.js).
-
 ![Screenshot (411)](https://github.com/user-attachments/assets/5a2bbf79-2167-4507-b0bd-ace87ad4867c)
+
+Welcome to the Job Findr project, a dynamic web application built using the MERN Stack (MongoDB, Express, React, Node.js).
 
 ![Screenshot (412)](https://github.com/user-attachments/assets/99c12a7a-f3fc-42aa-a881-70b97fa5e014)
 
